@@ -18,7 +18,7 @@ if os.path.exists(f'{session_name}.session'):
 client = TelegramClient(session_name, api_id, api_hash)
 
 # Список чатов для рассылки
-chat_ids = ['@cookiestock_chat', '@cookie_roblox_5tore', '@rbxglobalchat']  # Можно использовать username 
+chat_ids = ['@user']  # Можно использовать username 
 
 # Сообщение для рассылки
 message = "Ваше сообщение"
